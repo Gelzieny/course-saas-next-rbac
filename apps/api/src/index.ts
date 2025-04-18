@@ -1,4 +1,6 @@
-import { ability } from '@saas-grm/auth'
+import { defineAbilityFor } from  '@saas-grm/auth'
+
+const ability = defineAbilityFor({ role: 'MEMBER' })
 
 const userCanInviteSomeoneElese = ability.can('invite', 'User')
 const userCanDeleteOtherUsers = ability.can('delete', 'User')
