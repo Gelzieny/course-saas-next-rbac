@@ -1,0 +1,6 @@
+{
+  "extends": "@saas-grm/tsconfig/node.json",
+  "include": [
+    "src/**/*"
+  ]
+}
