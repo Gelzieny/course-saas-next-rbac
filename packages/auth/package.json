@@ -5,8 +5,8 @@
   "main": "src/index.ts",
   "types": "src/index.ts",
   "devDependencies": {
-    "@saas-grm/prettier": "*",
     "@saas-grm/eslint-config": "*",
+    "@saas-grm/prettier": "*",
     "@saas-grm/tsconfig": "*"
   },
   "eslintConfig": {
@@ -14,5 +14,8 @@
       "@saas-grm/eslint-config/library.cjs"
     ]
   },
-  "prettier": "@saas-grm/prettier"
+  "prettier": "@saas-grm/prettier",
+  "dependencies": {
+    "@casl/ability": "^6.7.3"
+  }
 }
