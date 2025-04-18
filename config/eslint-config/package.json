@@ -12,5 +12,11 @@
     "@rocketseat/eslint-config": "^2.2.2",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "@saas-grm/prettier": "*"
+  },
+  "prettier": "@saas-grm/prettier",
+  "eslintConfig": {
+    "extends": [
+      "./library.js"
+    ]
   }
 }
